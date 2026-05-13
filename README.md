@@ -56,6 +56,15 @@ The current MVP scaffold demonstrates:
 - simulated PoUC verification score,
 - simulated reward distribution.
 
+## Feasibility / Known Limits
+
+- zkML is not ready for the MVP.
+- Distributed training is an advanced phase, not Phase 1.
+- First objective: verifiable distributed inference, not training.
+- Real NMC token launch happens only after utility is demonstrated.
+- MVP rewards are simulated only; no financial promise is made.
+- PoUC verification is probabilistic, not cryptographic.
+
 ## Documentation
 
 | Document | Description |
@@ -63,7 +72,9 @@ The current MVP scaffold demonstrates:
 | [`docs/01_whitepaper.md`](docs/01_whitepaper.md) | White paper v0.2 |
 | [`docs/02_technical_architecture.md`](docs/02_technical_architecture.md) | Technical architecture overview |
 | [`docs/03_roadmap.md`](docs/03_roadmap.md) | Roadmap and budget |
+| [`docs/04_tokenomics.md`](docs/04_tokenomics.md) | NMC tokenomics concept and constraints |
 | [`docs/05_mvp-spec.md`](docs/05_mvp-spec.md) | MVP 1 technical specification |
+| [`docs/06_known-limits.md`](docs/06_known-limits.md) | Public feasibility and known limits |
 | [`docs/NIP-INDEX.md`](docs/NIP-INDEX.md) | All implementation plans (NIPs) |
 | `docs/private/FEASIBILITY-REVIEW.md` | Honest technical feasibility assessment (local only) |
 | `docs/private/CODEX-FEASIBILITY-AUDIT.md` | Codex consistency audit and final feasibility verdict (local only) |
