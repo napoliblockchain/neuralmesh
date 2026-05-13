@@ -8,6 +8,7 @@ Phase 3 — do not implement until Phase 1 MVP is running and Phase 2 community 
 ## Context
 
 Read first:
+
 - `/var/www/neuralmesh/docs/agents/AGENT-CONTEXT.md`
 - `/var/www/neuralmesh/docs/005-economic-layer/README.md`
 - All 4 NIP files in `docs/005-economic-layer/`
@@ -15,6 +16,7 @@ Read first:
 ## Prerequisites
 
 All of these must be ✅ Completed before you start:
+
 - NIP-010 (PoUC specification)
 - NIP-014 (Reputation scoring)
 - NIP-025 (Reward simulation) — simulation results must validate tokenomics

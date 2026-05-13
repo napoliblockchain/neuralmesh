@@ -7,7 +7,7 @@ Defines which NIPs can be executed in parallel by separate agents.
 
 ## Dependency Graph
 
-```
+```text
 Phase 0 (can all run in parallel — no code)
   NIP-001  NIP-002  NIP-003  NIP-004*  NIP-010  NIP-011
                               *NIP-004 needs NIP-010 for PoUC section
@@ -56,7 +56,7 @@ Phase 4 (after Phase 3 complete)
   NIP-071 ← needs NIP-015, NIP-040, NIP-042
   NIP-072 ← needs NIP-032, NIP-041, NIP-043
   NIP-073 ← needs NIP-043, NIP-040, NIP-071
-```
+```text
 
 ---
 

@@ -1,7 +1,7 @@
 {
   "ignorePatterns": [
     {
-      "pattern": "^https://github.com/jambtc/neuralmesh"
+      "pattern": "^https://github.com/napoliblockchain/neuralmesh"
     }
   ],
   "timeout": "20s",

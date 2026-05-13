@@ -8,6 +8,7 @@ You are building the foundational infrastructure that everything else plugs into
 ## Context
 
 Read first:
+
 - `/var/www/neuralmesh/docs/agents/AGENT-CONTEXT.md`
 - `/var/www/neuralmesh/CLAUDE.md`
 - `/var/www/neuralmesh/docs/003-mvp-core/README.md`
@@ -16,13 +17,15 @@ Read first:
 ## Prerequisites
 
 Before writing code, verify these are available or documented:
+
 - `docs/002-protocol-design/NIP-010-pouc-specification.md` — status: at least `🔄 In Progress`
 - `docs/002-protocol-design/NIP-011-task-lifecycle.md` — status: at least `🔄 In Progress`
 
 ## Repository Setup
 
 Create `neuralmesh-client/` in the project root with:
-```
+
+```text
 neuralmesh-client/
   cmd/
     neuralmesh-node/   ← main entry point
@@ -37,20 +40,23 @@ neuralmesh-client/
   go.mod
   go.sum
   Makefile
-```
+```text
 
 ## Execution Order
 
 **Wave 1 (independent — implement simultaneously if multiple agents):**
+
 - NIP-024: Write SQL schema and data access layer (`internal/store/`)
 - NIP-023: Write Docker sandbox manager (`internal/sandbox/`)
 - NIP-021: Write P2P networking layer (`internal/network/`) using libp2p-go
 
 **Wave 2 (after Wave 1):**
+
 - NIP-022: Write task scheduler (`internal/scheduler/`)
 - NIP-020: Wire everything together in daemon (`cmd/neuralmesh-node/`)
 
 **Wave 3:**
+
 - NIP-025: Write reward simulation tool (`tools/simulate/`)
 
 ## Key Technical Constraints

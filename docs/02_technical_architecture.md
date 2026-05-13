@@ -1,15 +1,17 @@
 # NEURALMESH TECHNICAL ARCHITECTURE
+
 ## Security, Consensus and Verification Design
 
 ### Version 0.2 — Technical Draft
 
 ---
 
-# Introduction
+## Introduction
 
 This document describes the technical architecture of NeuralMesh.
 
 The network introduces:
+
 - Proof of Useful Computation (PoUC)
 - Distributed verification
 - AI compute mining
@@ -19,11 +21,12 @@ The network introduces:
 
 ---
 
-# Proof of Useful Computation
+## Proof of Useful Computation
 
 Traditional Proof-of-Work wastes computational resources.
 
 NeuralMesh instead rewards:
+
 - AI inference
 - Tensor operations
 - Rendering
@@ -32,7 +35,7 @@ NeuralMesh instead rewards:
 
 ---
 
-# Task Lifecycle
+## Task Lifecycle
 
 1. Task creation
 2. Fragmentation
@@ -43,14 +46,16 @@ NeuralMesh instead rewards:
 
 ---
 
-# Verification System
+## Verification System
 
 Tasks are:
+
 - redundantly executed,
 - probabilistically verified,
 - consensus validated.
 
 Validation uses:
+
 - output similarity,
 - tensor checksums,
 - embedding distance,
@@ -58,9 +63,10 @@ Validation uses:
 
 ---
 
-# Sybil Resistance
+## Sybil Resistance
 
 The network uses:
+
 - reputation scoring,
 - hardware entropy,
 - bandwidth analysis,
@@ -69,12 +75,13 @@ The network uses:
 
 ---
 
-# Anti-ASIC Design
+## Anti-ASIC Design
 
 NeuralMesh cannot guarantee full ASIC resistance for AI workloads.
 Purpose-built AI accelerators already exist and can run ONNX models.
 
 The practical goal is to slow hardware centralization and preserve economic fairness through:
+
 - dynamic workloads,
 - memory-hard execution,
 - heterogeneous compute tasks,
@@ -84,9 +91,10 @@ The practical goal is to slow hardware centralization and preserve economic fair
 
 ---
 
-# Security
+## Security
 
 The network mitigates:
+
 - fake computation,
 - replay attacks,
 - collusion,
@@ -95,9 +103,10 @@ The network mitigates:
 
 ---
 
-# AI Execution
+## AI Execution
 
 Large models can be split into:
+
 - tensor shards,
 - transformer layers,
 - distributed inference windows.
@@ -107,9 +116,10 @@ Real-time inference should run on one node with sufficient RAM/VRAM.
 
 ---
 
-# Governance
+## Governance
 
 Governance combines:
+
 - token ownership,
 - node reputation,
 - participation history.
@@ -118,7 +128,7 @@ This reduces whale dominance.
 
 ---
 
-# Future Research
+## Future Research
 
 - zkML
 - distributed training

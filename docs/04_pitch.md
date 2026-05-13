@@ -1,13 +1,15 @@
 # NEURALMESH PITCH
+
 ## One-Sentence Vision
 
 NeuralMesh transforms unused computers worldwide into a decentralized artificial intelligence infrastructure.
 
 ---
 
-# Problem
+## Problem
 
 AI computation is:
+
 - centralized,
 - expensive,
 - monopolized by hyperscalers.
@@ -16,9 +18,10 @@ Meanwhile billions of devices remain idle.
 
 ---
 
-# Solution
+## Solution
 
 NeuralMesh creates:
+
 - distributed AI compute,
 - decentralized inference,
 - useful mining,
@@ -26,7 +29,7 @@ NeuralMesh creates:
 
 ---
 
-# Why Now
+## Why Now
 
 - AI demand is exploding
 - GPU scarcity is increasing
@@ -35,20 +38,22 @@ NeuralMesh creates:
 
 ---
 
-# Key Innovation
+## Key Innovation
 
 Mining becomes useful computation.
 
 Instead of hashing:
+
 - users execute AI workloads,
 - contribute compute,
 - and earn rewards.
 
 ---
 
-# Market Potential
+## Market Potential
 
 The protocol targets:
+
 - AI infrastructure,
 - edge computing,
 - distributed AI,
@@ -57,6 +62,6 @@ The protocol targets:
 
 ---
 
-# Long-Term Vision
+## Long-Term Vision
 
 A planetary-scale decentralized intelligence network.

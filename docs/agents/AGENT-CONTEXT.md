@@ -41,6 +41,7 @@ The project is in Phase 0 (foundation).
 ## Documentation System
 
 NIPs (NeuralMesh Implementation Plans) in `docs/`:
+
 - Master index: `docs/NIP-INDEX.md`
 - 8 macro-area folders: `docs/001-foundation/` through `docs/008-decentralization/`
 - Each NIP file has: status, context, proposal, sub-tasks, acceptance criteria, impact, dependencies
@@ -66,13 +67,14 @@ NIPs (NeuralMesh Implementation Plans) in `docs/`:
 ## Key Files to Read First
 
 For any implementation task, read these before writing code:
+
 - `CLAUDE.md` (project root) — code conventions
 - The specific NIP file — full spec
 - Dependency NIP files — context for interfaces you consume
 
 ## Phase Priority
 
-**Current phase: 0 — Foundation**
+Current phase: 0 — Foundation
 
 Next: Phase 1 MVP (NIP-020 through NIP-035).
 Phase 3+ (token, marketplace) only after Phase 1 is proven.

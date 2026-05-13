@@ -17,7 +17,7 @@ Define and implement the reward distribution algorithm:
 
 ### Reward Formula
 
-```
+```text
 R_node = R_task × VS × normalized_worker_weight
 
 Where:
@@ -26,7 +26,7 @@ Where:
   reputation_factor          = min(1.5, reputation_score / 500)  -- capped at 1.5x
   normalized_worker_weight   = worker_weight / sum(worker_weight across all workers)
   worker_weight              = compute_units_contributed × reputation_factor
-```
+```text
 
 The formula must normalize worker weights so total released rewards never exceed `R_task × VS` and do not accidentally underpay by dividing a pre-normalized share by `N_workers`.
 

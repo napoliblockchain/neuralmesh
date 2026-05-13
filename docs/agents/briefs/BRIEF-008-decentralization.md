@@ -8,6 +8,7 @@ This is Phase 4 — do not start until Phase 3 is live and validated.
 ## Context
 
 Read first:
+
 - `/var/www/neuralmesh/docs/agents/AGENT-CONTEXT.md`
 - `/var/www/neuralmesh/docs/008-decentralization/README.md`
 - All 4 NIP files in `docs/008-decentralization/`
@@ -15,6 +16,7 @@ Read first:
 ## Prerequisites
 
 All of these must be ✅ Completed:
+
 - NIP-015 (Governance model design)
 - NIP-021 (P2P networking — Phase 1)
 - NIP-040 (Token design)
@@ -39,13 +41,13 @@ All of these must be ✅ Completed:
 
 **Wave 2 (after Wave 1):**
 
-3. **NIP-072** — Autonomous AI agents
+1. **NIP-072** — Autonomous AI agents
    - Write `neuralmesh-agent-sdk/` (Python + Go)
    - Implement agent identity and wallet management
    - Implement agent task submission + result consumption
    - Publish example agent: RAG pipeline using NeuralMesh LLM inference
 
-4. **NIP-073** — Autonomous compute marketplace
+2. **NIP-073** — Autonomous compute marketplace
    - Implement Dutch auction mechanism replacing fixed-price listing
    - Implement on-chain order book event sourcing
    - Remove project-run matching server dependency or document any remaining gateway as optional/non-protocol infrastructure

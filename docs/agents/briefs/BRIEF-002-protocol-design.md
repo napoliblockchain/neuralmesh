@@ -8,6 +8,7 @@ This is design work — documents and specs, no production code.
 ## Context
 
 Read first:
+
 - `/var/www/neuralmesh/docs/agents/AGENT-CONTEXT.md`
 - `/var/www/neuralmesh/docs/002-protocol-design/README.md`
 
@@ -30,23 +31,24 @@ Read first:
 
 **Round 2 — after Round 1:**
 
-4. **NIP-012** `docs/002-protocol-design/NIP-012-verification-system.md`
+1. **NIP-012** `docs/002-protocol-design/NIP-012-verification-system.md`
    - Write `docs/protocol/verification-system.md`
    - Define all 4 verification layers, VRF validator selection, VS formula
 
-5. **NIP-014** `docs/002-protocol-design/NIP-014-reputation-scoring.md`
+2. **NIP-014** `docs/002-protocol-design/NIP-014-reputation-scoring.md`
    - Write `docs/protocol/reputation-scoring.md`
    - Define score events, decay function, checkpoints
 
 **Round 3 — after Round 2:**
 
-6. **NIP-015** `docs/002-protocol-design/NIP-015-governance-model.md`
+1. **NIP-015** `docs/002-protocol-design/NIP-015-governance-model.md`
    - Write `docs/protocol/governance-model.md`
    - Define voting weight formula, proposal types, quorum
 
 ## Output Format
 
 Each protocol document: formal spec in Markdown with sections:
+
 - Overview
 - Definitions (all variables and terms)
 - Algorithm / State Machine

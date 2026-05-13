@@ -8,6 +8,7 @@ These are documentation and setup tasks — no code output.
 ## Context
 
 Read first:
+
 - `/var/www/neuralmesh/docs/agents/AGENT-CONTEXT.md`
 - `/var/www/neuralmesh/docs/001-foundation/README.md`
 

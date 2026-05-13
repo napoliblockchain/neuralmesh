@@ -38,6 +38,7 @@ Halving is triggered by block/epoch count, not calendar time.
 ## Utility
 
 NMC is used for:
+
 - paying for AI inference tasks,
 - rewarding workers for verified computation,
 - staking for worker and validator eligibility,

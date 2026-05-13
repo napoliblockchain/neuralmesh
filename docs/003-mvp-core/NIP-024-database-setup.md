@@ -9,6 +9,7 @@
 ## Context
 
 Persistent and ephemeral data stores are required for:
+
 - Node state and identity (PostgreSQL)
 - Task queue and caching (Redis)
 - Reward history and reputation (PostgreSQL)

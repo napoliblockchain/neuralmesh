@@ -16,6 +16,7 @@ Report security issues privately:
 2. Or email the maintainers directly (see GitHub profile)
 
 Include:
+
 - Description of the vulnerability
 - Steps to reproduce
 - Potential impact
@@ -26,6 +27,7 @@ We will respond within 72 hours and aim to release a patch within 14 days for cr
 ## Scope
 
 In-scope:
+
 - Node daemon (`neuralmesh-node`)
 - P2P networking layer
 - Task sandbox escape / container breakout
@@ -33,6 +35,7 @@ In-scope:
 - Reward manipulation / double-spend
 
 Out-of-scope:
+
 - Issues requiring physical access to the node machine
 - Social engineering attacks on node operators
 - Issues in third-party dependencies (report upstream)

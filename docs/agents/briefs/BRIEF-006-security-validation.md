@@ -9,6 +9,7 @@ NIP-051, NIP-053 are Phase 1. NIP-054 is Phase 2-3.
 ## Context
 
 Read first:
+
 - `/var/www/neuralmesh/docs/agents/AGENT-CONTEXT.md`
 - `/var/www/neuralmesh/CLAUDE.md`
 - `/var/www/neuralmesh/docs/006-security-validation/README.md`
@@ -17,6 +18,7 @@ Read first:
 ## Prerequisites
 
 These must be ✅ Completed:
+
 - NIP-010 (PoUC specification) — verification score formula defined
 - NIP-012 (Verification system design) — architecture designed
 - NIP-021 (P2P networking) — for NIP-053 (replay attack)
@@ -40,11 +42,11 @@ These must be ✅ Completed:
 
 **Wave 2:**
 
-4. **NIP-051** — Anti-ASIC
+1. **NIP-051** — Anti-ASIC
    - Adds to: `internal/scheduler/` (workload rotation)
    - Implements: throughput ratio anomaly detection, workload type rotation
 
-5. **NIP-054** — Collusion detection (Phase 2-3, lower priority)
+2. **NIP-054** — Collusion detection (Phase 2-3, lower priority)
    - New package: `internal/analytics/collusion/`
    - Implements: co-occurrence tracking, timing analysis, IP clustering detection
 

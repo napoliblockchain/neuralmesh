@@ -8,11 +8,11 @@
 
 ## Branch Strategy
 
-```
+```text
 main        protected — merges via PR only, requires 1 review
 develop     integration branch — merges via PR only
 nip/NIP-XXX-short-name   feature branches
-```
+```text
 
 Always branch from `develop`, not `main`.
 
@@ -25,16 +25,16 @@ git checkout -b nip/NIP-030-onnx-runtime
 # ... work ...
 git push -u origin nip/NIP-030-onnx-runtime
 # open PR into develop
-```
+```text
 
 ## Commit Messages
 
-```
+```text
 NIP-030: implement ONNX Runtime CPU base image
 
 Add Dockerfile for onnx-cpu base image and Go package
 for model loading and inference execution.
-```
+```text
 
 Format: `NIP-XXX: short description` (imperative, lowercase after colon).
 

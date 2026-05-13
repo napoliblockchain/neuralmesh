@@ -10,6 +10,7 @@
 
 Without verification, workers can submit fake or low-quality results.
 The verification system must be:
+
 - computationally cheap for validators,
 - resistant to collusion,
 - probabilistically sound.

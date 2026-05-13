@@ -15,7 +15,8 @@ Tasks are tracked as NIP (NeuralMesh Implementation Plan) files under `docs/`.
 Master index: `docs/NIP-INDEX.md`.
 
 Structure:
-```
+
+```text
 docs/
   001-foundation/        Phase 0
   002-protocol-design/   Phase 0–1 (protocol specs — no code output)
@@ -26,7 +27,7 @@ docs/
   007-community-ecosystem/ Phase 2 (open-source + community)
   008-decentralization/  Phase 4 (full P2P + governance)
   agents/                Agent orchestration files
-```
+```text
 
 ## Before Starting Any Task
 
@@ -47,6 +48,7 @@ docs/
 ## NIP Status Updates
 
 When you complete work on a NIP:
+
 1. Update the NIP file status to `✅ Completed`
 2. Add a `## Verification` section with the files that confirm completion
 3. Update `docs/NIP-INDEX.md` status column

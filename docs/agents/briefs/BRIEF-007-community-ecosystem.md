@@ -8,6 +8,7 @@ This is Phase 2 — requires Phase 1 MVP to be running.
 ## Context
 
 Read first:
+
 - `/var/www/neuralmesh/docs/agents/AGENT-CONTEXT.md`
 - `/var/www/neuralmesh/docs/007-community-ecosystem/README.md`
 - All 5 NIP files in `docs/007-community-ecosystem/`
@@ -39,13 +40,13 @@ Read first:
 
 **After the above:**
 
-4. **NIP-060** — Open-source release
+1. **NIP-060** — Open-source release
    - Write `CHANGELOG.md` v0.1.0
    - Write release checklist `docs/release/v0.1.0-checklist.md`
    - Run `git-secrets` scan (list any found issues, do not auto-fix)
    - Write Product Hunt launch post draft `docs/community/producthunt-launch.md`
 
-5. **NIP-063** — Benchmarks
+2. **NIP-063** — Benchmarks
    - Write benchmark scripts `tools/benchmark/`
    - Run on available hardware, document results in `docs/benchmarks/`
    - Write comparison table: NeuralMesh cost vs OpenAI API pricing

@@ -1,13 +1,15 @@
 # NEURALMESH ROADMAP
+
 ## Strategic, Financial and Development Plan
 
 ### Version 0.2
 
 ---
 
-# Phase 0 — Foundation
+## Phase 0 — Foundation
 
 Goals:
+
 - Whitepaper
 - Technical documentation
 - Brand identity
@@ -15,13 +17,15 @@ Goals:
 - Initial architecture
 
 Budget Estimate:
+
 - 500€–1000€
 
 ---
 
-# Phase 1 — MVP
+## Phase 1 — MVP
 
 Goals:
+
 - Desktop client
 - Distributed task execution
 - CPU/GPU mining
@@ -44,9 +48,10 @@ Budget Estimate:
 
 ---
 
-# Phase 2 — Community
+## Phase 2 — Community
 
 Goals:
+
 - Open-source release
 - Discord community
 - Developer onboarding
@@ -54,6 +59,7 @@ Goals:
 - AI integrations
 
 Channels:
+
 - GitHub
 - Reddit
 - X/Twitter
@@ -62,7 +68,7 @@ Channels:
 
 ---
 
-# Phase 3 — Economic Layer
+## Phase 3 — Economic Layer
 
 Goals:
 
@@ -79,9 +85,10 @@ Budget Estimate:
 
 ---
 
-# Phase 4 — Decentralization
+## Phase 4 — Decentralization
 
 Goals:
+
 - Full P2P network
 - Distributed governance
 - Autonomous AI agents
@@ -89,13 +96,15 @@ Goals:
 
 ---
 
-# Fundraising Strategy
+## Fundraising Strategy
 
 Initial:
+
 - bootstrap
 - open-source traction
 
 Later:
+
 - AI infrastructure investors
 - distributed systems funds
 - open-source ecosystems
@@ -104,7 +113,7 @@ Avoid early speculative ICO strategies.
 
 ---
 
-# Strategic Positioning
+## Strategic Positioning
 
 NeuralMesh is:
 > a decentralized AI infrastructure network.

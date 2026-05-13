@@ -17,11 +17,11 @@ Design the complete task lifecycle state machine:
 
 ### States
 
-```
+```text
 CREATED → FRAGMENTED → ASSIGNED → EXECUTING → VALIDATING → COMPLETED → REWARDED
                                       ↓              ↓
                                    TIMEOUT         FAILED
-```
+```text
 
 ### Sub-tasks
 

@@ -25,8 +25,9 @@ Never assign two agents to NIPs with a direct dependency relationship.
 ## Agent Naming Convention
 
 Name each agent after its NIP for traceability:
-```
+
+```text
 agent-nip-021-p2p
 agent-nip-030-onnx
 agent-nip-024-database
-```
+```text

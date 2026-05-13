@@ -8,6 +8,7 @@ You are building the Docker-based ONNX inference runners that do the actual "use
 ## Context
 
 Read first:
+
 - `/var/www/neuralmesh/docs/agents/AGENT-CONTEXT.md`
 - `/var/www/neuralmesh/CLAUDE.md`
 - `/var/www/neuralmesh/docs/004-ai-compute/README.md`
@@ -16,16 +17,18 @@ Read first:
 ## Prerequisites
 
 These must be completed before you start:
+
 - NIP-023 (Docker sandboxing) — ✅ Completed
 - NIP-022 (Scheduler) — ✅ Completed
 
 ## Work Location
 
 Your work lives in two places:
+
 1. `docker/` — Docker base images
 2. `neuralmesh-client/internal/ai/` — Go packages that interact with the containers
 
-```
+```text
 docker/
   base-images/
     onnx-cpu/
@@ -44,11 +47,12 @@ neuralmesh-client/internal/ai/
   image/       ← NIP-033 image generation
   audio/       ← NIP-034 speech/STT
   ocr/         ← NIP-035 OCR
-```
+```text
 
 ## Execution Order
 
 **Start with (no deps between them):**
+
 1. **NIP-030** — Build ONNX base Docker images (CPU first). Write Go package `internal/ai/onnx/` for model loading + inference execution.
 
 **Then in parallel:**

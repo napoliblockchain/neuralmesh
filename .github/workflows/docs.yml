@@ -35,4 +35,5 @@ jobs:
         with:
           use-quiet-mode: "yes"
           check-modified-files-only: "yes"
+          base-branch: "develop"
           config-file: ".github/mlc_config.json"
