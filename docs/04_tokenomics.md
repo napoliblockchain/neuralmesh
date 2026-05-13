@@ -1,91 +1,103 @@
-# NMC Tokenomics Concept
+# NMC Tokenomics
 
-## Purpose
+## Supply
 
-NMC is the proposed unit of account for AI computation inside NeuralMesh.
-It represents access to useful compute, not a promise of profit.
+Total supply: 1,000,000,000 NMC (fixed, no inflation)
+
+## Distribution
+
+| Allocation | Amount | % | Notes |
+|------------|--------|---|-------|
+| Mining rewards | 500,000,000 | 50% | Released via halving schedule |
+| Community / ecosystem | 250,000,000 | 25% | Grants, partnerships, developer incentives |
+| Team | 150,000,000 | 15% | 6-month cliff + 2-year linear vesting |
+| Treasury | 100,000,000 | 10% | Protocol upgrades, security fund, public goods |
+
+## Emission Schedule (Mining Rewards)
+
+Mining rewards follow a **halving every 4 years**, analogous to Bitcoin:
+
+| Period | Years | NMC/epoch | Cumulative Released |
+|--------|-------|-----------|---------------------|
+| Era 1 | 1–4 | High | ~250M |
+| Era 2 | 5–8 | Medium | ~375M |
+| Era 3 | 9–12 | Low | ~437M |
+| Era 4+ | 13+ | Very low | → 500M asymptote |
+
+Exact NMC-per-task values are defined in NIP-041 based on task type and compute units.
+Halving is triggered by block/epoch count, not calendar time.
+
+## Vesting Schedule
+
+| Recipient | Cliff | Linear unlock | Notes |
+|-----------|-------|---------------|-------|
+| Team | 6 months | 24 months | Monthly tranches after cliff |
+| Community grants | None | Per-grant terms | Defined per proposal |
+| Treasury | None | Governance-controlled | Multisig release |
 
 ## Utility
 
-NMC is designed for:
-
+NMC is used for:
 - paying for AI inference tasks,
-- rewarding workers for useful computation,
-- staking for validator and worker reputation,
+- rewarding workers for verified computation,
+- staking for worker and validator eligibility,
 - protocol governance,
 - spam resistance and task prioritization.
 
-## Compute Unit
+## Fee Model
 
-The protocol should price work in compute units before pricing it in a token.
+| Role | Flow |
+|------|------|
+| Requester | Pays task fee in NMC |
+| Worker | Receives verified reward after escrow (5 min window) |
+| Validator | Receives verification fee |
+| Treasury | Receives protocol fee (% of each task) |
 
-Example compute unit inputs:
+Optional burn mechanism may be introduced after real usage data exists (Phase 3+).
 
-- task type,
-- runtime duration,
-- CPU/GPU class,
-- memory footprint,
-- verification cost,
-- failure/retry rate.
+## Compute Unit Pricing
 
-## Rewards
+Work is priced in compute units (CU) before NMC:
 
-Rewards are released only after verification.
-MVP rewards are simulated.
-Production rewards require:
+- task type
+- runtime duration
+- CPU/GPU class
+- memory footprint
+- verification cost
+- failure/retry rate
 
-- working task marketplace,
-- measured demand,
-- verified utility,
-- anti-abuse controls,
-- legal review.
-
-## Fees and Burn
-
-Potential fee model:
-
-- requester pays task fee,
-- worker receives verified reward,
-- validator receives verification fee,
-- protocol fee funds public goods or treasury,
-- optional burn reduces spam and aligns usage with token demand.
-
-No burn mechanism should launch before real usage data exists.
+Full CU definitions: NIP-041.
 
 ## Reputation Staking
 
-Staking is a Sybil deterrent and quality signal.
-It should not be marketed as passive yield.
+| Threshold | Capability |
+|-----------|------------|
+| Score ≥ 100 (default) | Worker eligibility |
+| Score ≥ 500 | Validator eligibility |
+| Score ≥ 750 | Governance weight (uncapped) |
+| Score ≥ 900 | Dispute arbitrator candidate |
 
-Staking can support:
-
-- worker eligibility,
-- validator eligibility,
-- dispute bond,
-- slashable collateral for fraud,
-- governance weight with reputation caps.
+Staking is a Sybil deterrent and quality signal, not a passive yield mechanism.
 
 ## Anti-Whale Governance
 
-Governance should avoid pure token-weighted control.
-
-Recommended controls:
-
-- reputation-weighted caps,
-- quadratic voting or capped voting power,
-- minimum participation history,
-- time-locked proposals,
-- public audit windows,
-- emergency security council with sunset rules.
+- Reputation-weighted caps on voting power
+- Quadratic voting or capped voting power
+- Minimum participation history required
+- Time-locked proposals
+- Public audit windows
+- Emergency security council with sunset rules
 
 ## No Financial Promise
 
-NMC documentation must not promise:
+NMC documentation must not promise profit, guaranteed yield, guaranteed listing,
+guaranteed appreciation, or passive income.
 
-- profit,
-- guaranteed yield,
-- guaranteed listing,
-- guaranteed appreciation,
-- passive income.
+Token work is Phase 3 and begins only after MVP utility is demonstrated.
 
-Token work should remain Phase 3 and start only after MVP utility is demonstrated.
+## References
+
+- NIP-010: PoUC reward function
+- NIP-014: Reputation scoring
+- NIP-041: Reward distribution algorithm
+- NIP-042: Reputation staking mechanism

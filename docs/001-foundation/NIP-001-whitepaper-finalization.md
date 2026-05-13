@@ -14,6 +14,7 @@ Missing: detailed tokenomics, competitive analysis, legal disclaimer, formal PoU
 ## Proposal
 
 Expand the whitepaper into a complete document with the following additions:
+
 - Executive summary
 - Competitive analysis (vs Golem, Render Network, Akash, Bittensor)
 - Tokenomics (supply, distribution, vesting schedule)
@@ -22,10 +23,10 @@ Expand the whitepaper into a complete document with the following additions:
 
 ### Sub-tasks
 
-- [ ] NIP-001a: Add competitive analysis section (≥4 projects)
-- [ ] NIP-001b: Write detailed tokenomics (supply schedule, distribution breakdown)
-- [ ] NIP-001c: Formalize PoUC with mathematical definition
-- [ ] NIP-001d: Add legal disclaimer
+- [x] NIP-001a: Add competitive analysis section (≥4 projects)
+- [x] NIP-001b: Write detailed tokenomics (supply schedule, distribution breakdown)
+- [x] NIP-001c: Formalize PoUC with mathematical definition
+- [x] NIP-001d: Add legal disclaimer
 - [ ] NIP-001e: Editorial review and PDF export
 
 ## Acceptance Criteria
