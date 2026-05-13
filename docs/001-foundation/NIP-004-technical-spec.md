@@ -1,6 +1,6 @@
 # NIP-004 — Detailed Technical Specification
 
-- Status: 📋 Open
+- Status: ✅ Completed
 - Area: Foundation / Documentation
 - Phase: 0
 - Priority: High
@@ -17,14 +17,14 @@ Produce a detailed technical specification document:
 
 ### Sub-tasks
 
-- [ ] NIP-004a: Define node types (worker, validator, coordinator, client)
-- [ ] NIP-004b: Specify wire protocol format (message types, serialization: protobuf vs msgpack)
-- [ ] NIP-004c: Define REST/gRPC API surface for task submission
-- [ ] NIP-004d: Specify task data format (input, output, metadata schema)
-- [ ] NIP-004e: Document node discovery protocol (DHT, bootstrap nodes)
-- [ ] NIP-004f: Specify reward calculation formula (formal notation)
-- [ ] NIP-004g: Define hardware capability advertisement format
-- [ ] NIP-004h: Document error codes and failure modes
+- [x] NIP-004a: Define node types (worker, validator, coordinator, client)
+- [x] NIP-004b: Specify wire protocol format (protobuf v3, libp2p, Ed25519 signed messages)
+- [x] NIP-004c: Define REST/gRPC API surface for task submission
+- [x] NIP-004d: Specify task data format (input, output, metadata schema)
+- [x] NIP-004e: Document node discovery protocol (libp2p Kademlia DHT, bootstrap nodes)
+- [x] NIP-004f: Specify reward calculation formula (formal notation)
+- [x] NIP-004g: Define hardware capability advertisement format
+- [x] NIP-004h: Document error codes and failure modes
 
 ## Acceptance Criteria
 
