@@ -53,4 +53,4 @@ See [`docs/NIP-INDEX.md`](docs/NIP-INDEX.md) for the full implementation plan.
 
 ## License
 
-Apache 2.0
+GPL-3.0
