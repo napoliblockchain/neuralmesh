@@ -28,6 +28,34 @@ Unlike proof-of-work blockchains that waste energy on cryptographic puzzles, eve
 
 See [`docs/NIP-INDEX.md`](docs/NIP-INDEX.md) for the full implementation plan.
 
+## Quick Start
+
+```bash
+git clone https://github.com/jambtc/neuralmesh.git
+cd neuralmesh
+docker compose up
+```
+
+Local Go run:
+
+```bash
+go run ./cmd/demo
+go test ./...
+```
+
+## MVP Goal
+
+Run a distributed AI task on consumer hardware and simulate Proof of Useful Computation rewards.
+
+The current MVP scaffold demonstrates:
+
+- node capability registration,
+- task scheduling,
+- local task execution,
+- OCR and embedding demo workloads,
+- simulated PoUC verification score,
+- simulated reward distribution.
+
 ## Documentation
 
 | Document | Description |
@@ -35,6 +63,7 @@ See [`docs/NIP-INDEX.md`](docs/NIP-INDEX.md) for the full implementation plan.
 | [`docs/01_whitepaper.md`](docs/01_whitepaper.md) | White paper v0.2 |
 | [`docs/02_technical_architecture.md`](docs/02_technical_architecture.md) | Technical architecture overview |
 | [`docs/03_roadmap.md`](docs/03_roadmap.md) | Roadmap and budget |
+| [`docs/05_mvp-spec.md`](docs/05_mvp-spec.md) | MVP 1 technical specification |
 | [`docs/NIP-INDEX.md`](docs/NIP-INDEX.md) | All implementation plans (NIPs) |
 | `docs/private/FEASIBILITY-REVIEW.md` | Honest technical feasibility assessment (local only) |
 | `docs/private/CODEX-FEASIBILITY-AUDIT.md` | Codex consistency audit and final feasibility verdict (local only) |

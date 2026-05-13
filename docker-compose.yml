@@ -1,0 +1,4 @@
+services:
+  neuralmesh-demo:
+    build: .
+    command: ["neuralmesh-demo"]
