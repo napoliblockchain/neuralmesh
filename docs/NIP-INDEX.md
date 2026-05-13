@@ -26,9 +26,9 @@ Full spec is in the dedicated file inside the macro-area folder.
 
 | ID | Title | Area | Phase | Status |
 |----|-------|------|-------|--------|
-| [NIP-001](001-foundation/NIP-001-whitepaper-finalization.md) | Whitepaper finalization and revision | Foundation | 0 | 🔄 In Progress |
-| [NIP-002](001-foundation/NIP-002-brand-identity.md) | Brand identity (logo, colors, naming) | Foundation | 0 | 📋 Open |
-| [NIP-003](001-foundation/NIP-003-github-organization.md) | GitHub organization setup | Foundation | 0 | 📋 Open |
+| [NIP-001](001-foundation/NIP-001-whitepaper-finalization.md) | Whitepaper finalization and revision | Foundation | 0 | ✅ Completed |
+| [NIP-002](001-foundation/NIP-002-brand-identity.md) | Brand identity (logo, colors, naming) | Foundation | 0 | ✅ Completed |
+| [NIP-003](001-foundation/NIP-003-github-organization.md) | GitHub organization setup | Foundation | 0 | ✅ Completed |
 | [NIP-004](001-foundation/NIP-004-technical-spec.md) | Detailed technical specification | Foundation | 0 | 📋 Open |
 | [NIP-005](001-foundation/NIP-005-landing-page.md) | Website landing page | Foundation | 0 | 📋 Open |
 | [NIP-010](002-protocol-design/NIP-010-pouc-specification.md) | Proof of Useful Computation (PoUC) spec | Protocol | 0–1 | 📋 Open |

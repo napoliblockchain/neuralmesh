@@ -1,6 +1,6 @@
 # NIP-003 — GitHub Organization Setup
 
-- Status: 📋 Open
+- Status: ✅ Completed
 - Area: Foundation / DevOps
 - Phase: 0
 - Priority: High
@@ -17,10 +17,10 @@ Create and configure the NeuralMesh GitHub organization:
 ### Sub-tasks
 
 - [x] NIP-003a: GitHub organization `napoliblockchain` — already exists
-- [ ] NIP-003b: Create repository `neuralmesh` under `napoliblockchain`
-- [ ] NIP-003c: Create repository `neuralmesh-client` (desktop client) — or monorepo
-- [ ] NIP-003d: Create repository `neuralmesh-docs` (documentation site) — or monorepo
-- [ ] NIP-003e: Configure branch protection rules on `main`
+- [x] NIP-003b: Create repository `neuralmesh` under `napoliblockchain`
+- [x] NIP-003c: Monorepo — client code will live in `neuralmesh-client/` subfolder
+- [x] NIP-003d: Monorepo — docs live in `docs/` subfolder
+- [x] NIP-003e: Branch protection on `main` — PR + 1 review required
 - [x] NIP-003f: `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` — already present
 - [x] NIP-003g: Issue templates (bug, feature, NIP proposal) — already present
 - [x] NIP-003h: GitHub Actions CI skeleton — already present (ci.yml, docs.yml, release.yml)
