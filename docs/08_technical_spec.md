@@ -11,6 +11,7 @@ Version 1.0 — May 2026
 Executes AI compute tasks inside a Docker sandbox and returns signed output.
 
 **Responsibilities:**
+
 - Register capability advertisement on join
 - Accept tasks from Scheduler
 - Execute task in Docker sandbox (no external network)
@@ -24,6 +25,7 @@ Executes AI compute tasks inside a Docker sandbox and returns signed output.
 Verifies task output correctness using the 4-layer PoUC verification protocol.
 
 **Responsibilities:**
+
 - Receive validator assignment via VRF selection
 - Run verification layers (similarity, checksum, embedding, hidden tasks)
 - Submit verification score VS ∈ [0, 1] signed with node key
@@ -36,6 +38,7 @@ Verifies task output correctness using the 4-layer PoUC verification protocol.
 Routes tasks to eligible workers based on capability, reputation, and load.
 
 **Responsibilities:**
+
 - Maintain worker registry and capability index
 - Match task requirements to worker capabilities
 - Enforce task deadlines
@@ -49,6 +52,7 @@ Routes tasks to eligible workers based on capability, reputation, and load.
 Submits tasks and consumes results. No compute or validation responsibility.
 
 **Responsibilities:**
+
 - Authenticate with API key or wallet signature
 - Submit task payload via REST or gRPC
 - Poll or subscribe (WebSocket) for task result
