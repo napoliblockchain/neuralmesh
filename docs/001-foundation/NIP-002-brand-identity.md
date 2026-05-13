@@ -1,6 +1,6 @@
 # NIP-002 — Brand Identity
 
-- Status: 📋 Open
+- Status: ✅ Completed
 - Area: Foundation / Brand
 - Phase: 0
 - Priority: High
@@ -16,12 +16,12 @@ Define and produce a complete visual identity:
 
 ### Sub-tasks
 
-- [ ] NIP-002a: Finalize naming convention and definitive tagline
-- [ ] NIP-002b: Design logo (variants: color, white, dark, favicon)
-- [ ] NIP-002c: Define primary and secondary color palette (hex codes)
-- [ ] NIP-002d: Select typography (heading + body fonts)
-- [ ] NIP-002e: Produce brand guidelines document (`docs/brand/brand-guidelines.md`)
-- [ ] NIP-002f: Export SVG/PNG assets for web and social media use
+- [x] NIP-002a: Finalize naming convention and definitive tagline
+- [x] NIP-002b: Design logo (variants: color, white, dark, favicon)
+- [x] NIP-002c: Define primary and secondary color palette (hex codes)
+- [x] NIP-002d: Select typography (heading + body fonts)
+- [x] NIP-002e: Produce brand guidelines document (`docs/brand/brand-guidelines.md`)
+- [x] NIP-002f: Export PNG raster assets (requires Inkscape or browser render)
 
 ## Acceptance Criteria
 

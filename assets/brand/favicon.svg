@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="0.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="32" height="32" fill="#0A0E1A" rx="6"/>
+
+  <!-- Hex mesh scaled to 32x32 (center 16,16 radius 11) -->
+  <!-- N1 top:       (16, 5) -->
+  <!-- N2 top-right: (25.5, 10.5) -->
+  <!-- N3 bot-right: (25.5, 21.5) -->
+  <!-- N4 bottom:    (16, 27) -->
+  <!-- N5 bot-left:  (6.5, 21.5) -->
+  <!-- N6 top-left:  (6.5, 10.5) -->
+
+  <!-- Outer ring -->
+  <g stroke="#00D4FF" stroke-width="0.7" opacity="0.4">
+    <line x1="16" y1="5" x2="25.5" y2="10.5"/>
+    <line x1="25.5" y1="10.5" x2="25.5" y2="21.5"/>
+    <line x1="25.5" y1="21.5" x2="16" y2="27"/>
+    <line x1="16" y1="27" x2="6.5" y2="21.5"/>
+    <line x1="6.5" y1="21.5" x2="6.5" y2="10.5"/>
+    <line x1="6.5" y1="10.5" x2="16" y2="5"/>
+  </g>
+
+  <!-- Spokes -->
+  <g stroke="#00D4FF" stroke-width="0.7" opacity="0.6" filter="url(#glow)">
+    <line x1="16" y1="16" x2="16" y2="5"/>
+    <line x1="16" y1="16" x2="25.5" y2="10.5"/>
+    <line x1="16" y1="16" x2="25.5" y2="21.5"/>
+    <line x1="16" y1="16" x2="16" y2="27"/>
+    <line x1="16" y1="16" x2="6.5" y2="21.5"/>
+    <line x1="16" y1="16" x2="6.5" y2="10.5"/>
+  </g>
+
+  <!-- Outer nodes -->
+  <g fill="#00D4FF" filter="url(#glow)">
+    <circle cx="16" cy="5" r="1.5"/>
+    <circle cx="25.5" cy="10.5" r="1.5"/>
+    <circle cx="25.5" cy="21.5" r="1.5"/>
+    <circle cx="16" cy="27" r="1.5"/>
+    <circle cx="6.5" cy="21.5" r="1.5"/>
+    <circle cx="6.5" cy="10.5" r="1.5"/>
+  </g>
+
+  <!-- Center node -->
+  <circle cx="16" cy="16" r="2.8" fill="#7B2FFF" opacity="0.8" filter="url(#glow)"/>
+  <circle cx="16" cy="16" r="1.5" fill="#00D4FF"/>
+</svg>
