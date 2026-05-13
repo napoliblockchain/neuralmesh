@@ -69,7 +69,7 @@ The current MVP scaffold demonstrates:
 
 | Document | Description |
 |----------|-------------|
-| [`docs/01_whitepaper.md`](docs/01_whitepaper.md) | White paper v0.2 |
+| [`docs/01_whitepaper.md`](docs/01_whitepaper.md) | White paper v1.0 |
 | [`docs/02_technical_architecture.md`](docs/02_technical_architecture.md) | Technical architecture overview |
 | [`docs/03_roadmap.md`](docs/03_roadmap.md) | Roadmap and budget |
 | [`docs/04_tokenomics.md`](docs/04_tokenomics.md) | NMC tokenomics concept and constraints |
@@ -78,8 +78,6 @@ The current MVP scaffold demonstrates:
 | [`docs/07_pitch.md`](docs/07_pitch.md) | Pitch deck summary |
 | [`docs/08_technical_spec.md`](docs/08_technical_spec.md) | Detailed technical specification (NIP-004) |
 | [`docs/NIP-INDEX.md`](docs/NIP-INDEX.md) | All implementation plans (NIPs) |
-| `docs/private/FEASIBILITY-REVIEW.md` | Honest technical feasibility assessment (local only) |
-| `docs/private/CODEX-FEASIBILITY-AUDIT.md` | Codex consistency audit and final feasibility verdict (local only) |
 | [`docs/agents/AGENT-GUIDE.md`](docs/agents/AGENT-GUIDE.md) | How to use AI agents to implement NIPs |
 | [`docs/agents/codex/README.md`](docs/agents/codex/README.md) | Codex parallel agent briefs |
 
