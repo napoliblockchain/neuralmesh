@@ -36,7 +36,7 @@ Produce a detailed technical specification document:
 
 ## Impact
 
-- New: `docs/05_technical_spec.md`
+- New: `docs/08_technical_spec.md`
 - Informs: NIP-020 (client), NIP-021 (P2P), NIP-022 (scheduler), NIP-041 (rewards)
 
 ## Implementation Notes

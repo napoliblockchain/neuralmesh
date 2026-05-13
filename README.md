@@ -75,6 +75,8 @@ The current MVP scaffold demonstrates:
 | [`docs/04_tokenomics.md`](docs/04_tokenomics.md) | NMC tokenomics concept and constraints |
 | [`docs/05_mvp-spec.md`](docs/05_mvp-spec.md) | MVP 1 technical specification |
 | [`docs/06_known-limits.md`](docs/06_known-limits.md) | Public feasibility and known limits |
+| [`docs/07_pitch.md`](docs/07_pitch.md) | Pitch deck summary |
+| [`docs/08_technical_spec.md`](docs/08_technical_spec.md) | Detailed technical specification (NIP-004) |
 | [`docs/NIP-INDEX.md`](docs/NIP-INDEX.md) | All implementation plans (NIPs) |
 | `docs/private/FEASIBILITY-REVIEW.md` | Honest technical feasibility assessment (local only) |
 | `docs/private/CODEX-FEASIBILITY-AUDIT.md` | Codex consistency audit and final feasibility verdict (local only) |

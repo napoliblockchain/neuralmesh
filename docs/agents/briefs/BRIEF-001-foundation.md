@@ -32,7 +32,7 @@ Execute in this order (no dependency conflicts):
    - Note: full tokenomics requires NIP-040 — write placeholder sections
 
 4. **NIP-004** `docs/001-foundation/NIP-004-technical-spec.md`
-   - Write `docs/05_technical_spec.md` with node types, wire protocol, task schema, API surface
+   - Write `docs/08_technical_spec.md` with node types, wire protocol, task schema, API surface
    - Use protobuf notation for message definitions
 
 5. **NIP-005** `docs/001-foundation/NIP-005-landing-page.md`
